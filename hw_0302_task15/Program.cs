@@ -3,3 +3,24 @@
 // 6 -> да
 // 7 -> да
 // 1 -> нет
+
+// test commit
+
+Console.Write("Введите номер дня недели, чтобы проверить на выходной: ");
+int x = Convert.ToInt32(Console.ReadLine());
+
+if (x > 7 || x < 1)
+{
+    Console.WriteLine("Некорректный номер дня недели");
+}
+else
+{
+    if (x > 5)
+    {
+        Console.WriteLine("да");
+    }
+    else
+    {
+        Console.WriteLine("нет");
+    }
+}
